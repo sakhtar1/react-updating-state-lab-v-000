@@ -2,7 +2,14 @@
 import React from 'react';
 
 export default class YouTubeDebugger extends React.Component {
-s
+  constructor() {
+    super();
+ 
+    // Define the initial state:
+    this.state = {
+      js { errors: [], user: null, settings: { bitrate: 8, video: { resolution: '1080p' } } 
+    };
+  }
   render(){
 
     return(
