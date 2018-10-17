@@ -31,13 +31,14 @@ export default class YouTubeDebugger extends React.Component {
   settings: Object.assign({}, this.state.settings.video, {
     resolution: '720p',
   }),
-});
+ });
+}
   render() {
 
     return(
       <div>
       <button onClick={this.handleClick}>bitrate</button>
-      <button onClick={this.handleClick}>resolution!</button>
+      <button onClick={this.betaClick}>resolution!</button>
       </div>
 
     )
