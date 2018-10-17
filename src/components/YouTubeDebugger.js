@@ -31,7 +31,7 @@ export default class YouTubeDebugger extends React.Component {
     resolution: '720p',
   }),
 });
-  render(){
+  render() {
 
     return(
       <div>
