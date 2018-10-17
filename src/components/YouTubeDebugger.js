@@ -7,7 +7,7 @@ export default class YouTubeDebugger extends React.Component {
  
     // Define the initial state:
     this.state = {
-      js: { 
+      const js = { 
         errors: [], 
         user: null, 
         settings: { 
@@ -19,15 +19,11 @@ export default class YouTubeDebugger extends React.Component {
    }
   }
   handleClick = () => {
-    js: { 
-      errors: [], 
-      user: null, 
-      settings: { 
-        bitrate: 8, 
-        video: { 
-          resolution: '1080p' } 
-        } 
-  }
+    this.setState({
+   settings: Object.assign({}, this.state.settings, {
+     bitrate: 12,
+   }),
+ });
   render(){
 
     return(
