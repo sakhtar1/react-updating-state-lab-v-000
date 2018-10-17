@@ -24,6 +24,7 @@ export default class YouTubeDebugger extends React.Component {
      bitrate: 12,
    }),
  });
+ }
 
  betaClick = () => {
    this.setState({
