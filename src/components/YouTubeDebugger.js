@@ -24,6 +24,13 @@ export default class YouTubeDebugger extends React.Component {
      bitrate: 12,
    }),
  });
+
+ betaClick = () => {
+   this.setState({
+  settings: Object.assign({}, this.state.settings.video, {
+    resolution: '720p',
+  }),
+});
   render(){
 
     return(
