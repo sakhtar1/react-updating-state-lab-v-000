@@ -7,7 +7,7 @@ export default class YouTubeDebugger extends React.Component {
  
     // Define the initial state:
     this.state = {
-      const BASE_STATE = { 
+      js: { 
         errors: [], 
         user: null, 
         settings: { 
